@@ -1,0 +1,100 @@
+{
+  "about": {
+    "name": "Mark Lech",
+    "headline": "Full Stack Developer and Technical Project Manager",
+    "summary": ["I am a full stack developer and technical project manager with a background in xxxxxxxxxxx. My interest in programming first began xxxxxxxxxx"],
+    "github": "https://github.com/mlech413",
+    "linkedIn": "https://www.linkedin.com/in/mark-lech",
+    "email": "mlech413gmail.com",
+    "resume": "Mark_Lech_Resume.pdf",
+    "year": "2018"
+  },
+  "skills": {
+    "frontEnd": ["React", "JavaScript", "jQuery", "AJAX", "Bootstrap", "Materialize", "CSS3", "HTML5"],
+    "backEnd": ["Node.js", "Express", "SQL", "MySQL", "MongoDB", "Firebase"],
+    "other": ["Git", "APIs", "RESTful API design", "MVC", "Heroku"]
+  },
+  "projects": [
+    {
+      "name": "NFLevate",
+      "description": "Information retrieved for any NFL team or active player, and view analytical breakdowns and rankings",
+      "technologies": ["JavaScript", "Node.js", "Express", "MySQL", "Sequelize", "RESTful API", "MVC Framework"],
+      "github": "https://github.com/mlech413/NFLevate",
+      "live": "https://guarded-scrubland-37816.herokuapp.com",
+      "image": "NFLevate.jpg"
+    },
+    {
+      "name": "The Simpsons Clicky Game",
+      "description": "A fun and easy React game that displays twelve images that randomly change positions",
+      "technologies": ["React.js", "Node.js"],
+      "github": "https://github.com/mlech413/Clicky-Game",
+      "live": "https://guarded-scrubland-37816.herokuapp.com",
+      "image": "clicky-game.jpg"
+    },
+    {
+      "name": "AmeriGuide",
+      "description": "Travel application that retrieves a variety of local information based on the state and city selected",
+      "technologies": ["React.js", "Node.js", "Express", "MongoDB", "RESTful API", "Axios", "MVC Framework"],
+      "github": "https://mlech413.github.io/my-american-guide",
+      "live": "https://boiling-crag-65161.herokuapp.com",
+      "image": "AmeriGuide.jpg"
+    },
+    {
+      "name": "Around The World",
+      "description": "Interesting GIF videos from various countries",
+      "technologies": ["JavaScript", "AJAX", "Bootstrap"],
+      "github": "https://github.com/mlech413/GifTastic",
+      "live": "https://mlech413.github.io/GifTastic",
+      "image": "around-the-world.jpg"
+    },
+    {
+      "name": "Train Scheduler",
+      "description": "xxxxxxxx",
+      "technologies": ["JavaScript", "jQuery", "Bootstrap", "Firebase"],
+      "github": "https://github.com/mlech413/Train-Scheduler",
+      "live": "https://mlech413.github.io/Train-Scheduler/",
+      "image": "train-scheduler.jpg"
+    },
+    {
+      "name": "Word Guess",
+      "description": "xxxxxxxxxxxx",
+      "technologies": ["JavaScript", "jQuery", "Bootstrap"],
+      "github": "https://github.com/mlech413/Word-Guess-Game",
+      "live": "https://mlech413.github.io/Word-Guess-Game",
+      "image": "word-guess.jpg"
+    },
+
+    {
+      "name": "Bamazond CLI",
+      "description": "Interact with Bamazond database as a customer, manager, or supervisor",
+      "technologies": ["SQL", "Node.js"],
+      "github": "https://github.com/mlech413/bamazond-cli",
+      "live": "https://mlech413.github.io/bamazond-cli",
+      "image": "bamazond-cli.gif"
+    },
+    {
+      "name": "Liri Node App",
+      "description": "Find tweets, songs, or movies from the command line",
+      "technologies": ["Node.js", "APIs"],
+      "github": "https://github.com/mlech413/liri-node-app",
+      "live": "https://mlech413.github.io/liri-node-app",
+      "image": "liri-node-app.gif"
+    }
+  ],
+  "otherProjects": [
+    {
+      "name": "Memory",
+      "technologies": [],
+      "github": "https://github.com/mlech413/memory",
+      "live": "",
+      "image": ""
+    },
+    {
+      "name": "Burgers",
+      "technologies": [],
+      "github": "https://github.com/mlech413/burgers",
+      "live": "",
+      "image": ""
+    }
+  ]
+}
