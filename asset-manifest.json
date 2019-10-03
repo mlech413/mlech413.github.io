@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.3d736250.css",
   "main.css.map": "static/css/main.3d736250.css.map",
-  "main.js": "static/js/main.3ac9bed4.js",
-  "main.js.map": "static/js/main.3ac9bed4.js.map",
+  "main.js": "static/js/main.0cfb01e6.js",
+  "main.js.map": "static/js/main.0cfb01e6.js.map",
   "static\\media\\AmeriGuide.jpg": "static/media/AmeriGuide.485f00f1.jpg",
   "static\\media\\NFLevate.jpg": "static/media/NFLevate.173617fd.jpg",
   "static\\media\\ajax.png": "static/media/ajax.1f32cda1.png",
@@ -22,13 +22,16 @@
   "static\\media\\friend-finder.jpg": "static/media/friend-finder.3cb19769.jpg",
   "static\\media\\git.png": "static/media/git.ff7fb7ec.png",
   "static\\media\\heroku.png": "static/media/heroku.ba7c2761.png",
+  "static\\media\\ispf.png": "static/media/ispf.2869e61d.png",
   "static\\media\\jcl.png": "static/media/jcl.bf437bf2.png",
   "static\\media\\keyboard_med.jpg": "static/media/keyboard_med.0e1222d7.jpg",
   "static\\media\\liri-node-app.gif": "static/media/liri-node-app.d881a0b7.gif",
   "static\\media\\mongo-scraper.jpg": "static/media/mongo-scraper.6f2cc627.jpg",
   "static\\media\\mvc.png": "static/media/mvc.f1584847.png",
+  "static\\media\\mvf.png": "static/media/mvf.fb7b97ab.png",
   "static\\media\\mysql.png": "static/media/mysql.3047cbac.png",
   "static\\media\\node.png": "static/media/node.994e062d.png",
+  "static\\media\\oracle.png": "static/media/oracle.0ebdcd1d.png",
   "static\\media\\phone_face.jpg": "static/media/phone_face.44a75af6.jpg",
   "static\\media\\responsive-design.png": "static/media/responsive-design.148d744b.png",
   "static\\media\\restful_api.png": "static/media/restful_api.8cd66a17.png",
@@ -37,6 +40,8 @@
   "static\\media\\sql.png": "static/media/sql.a8b695ca.png",
   "static\\media\\train-scheduler.jpg": "static/media/train-scheduler.d5c08a8f.jpg",
   "static\\media\\trivia-game.jpg": "static/media/trivia-game.7f8a183b.jpg",
+  "static\\media\\tso.png": "static/media/tso.6dc0c187.png",
   "static\\media\\vsam.png": "static/media/vsam.8f021257.png",
-  "static\\media\\word-guess.jpg": "static/media/word-guess.0501047f.jpg"
+  "static\\media\\word-guess.jpg": "static/media/word-guess.0501047f.jpg",
+  "static\\media\\zos.png": "static/media/zos.15b58114.png"
 }
