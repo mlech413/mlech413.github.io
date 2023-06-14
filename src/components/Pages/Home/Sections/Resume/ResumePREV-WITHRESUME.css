@@ -1,0 +1,47 @@
+#resume {
+  background-color: #272727;
+  color: lightgray;
+  padding: 15px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#resume p {
+  line-height: 1;
+  height: 5rem;
+}
+#resume a {
+  font-size: 5rem;
+  color: lightgray;
+}
+#resume a:hover {
+  font-size: 5.25rem;
+  color: lightgray;
+}
+#resume a:focus {
+  outline: 0;
+}
+
+#resume-doc-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-doc-container {
+  width: 90%;
+  height: 80%;
+  max-height: 80%;
+  background-color: white;
+}
+.resume-document {
+  -webkit-box-shadow: 0 4px 3px #0d47a1;
+  box-shadow: 0 4px 3px #0d47a1;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #resume {
+    height: 0;
+    display: none;
+  }
+}

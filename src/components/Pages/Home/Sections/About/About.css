@@ -1,0 +1,41 @@
+#about {
+  background-color: #ce8633;
+  background-image: linear-gradient(to right, #e6c569, #ce8633);
+  padding: 15px;
+}
+.about-img-container img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  object-position: 20% 33%;
+  border-radius: 50%;
+  
+  box-shadow: 9px 9px 15px rgba(0,0,0,0.2);
+}
+
+.about-img-container img:hover {
+  cursor: auto;
+  width: 160px;
+  height: 160px;
+  border: none;
+  border-radius: 50%;
+  transition: none;
+}
+
+.about-img-container {
+  float: left;
+  margin: 0 20px 10px 20px ;
+  
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-text-items {
+  text-align: left;
+}
+
+#about-name-location {
+  margin: 20px 0 0 0 ;
+}
