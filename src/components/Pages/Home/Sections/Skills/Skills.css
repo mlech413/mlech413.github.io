@@ -1,0 +1,58 @@
+.container {
+  max-width: 100%;
+}
+
+#skills-color {
+  color: #cacbd6;
+}
+
+#skills {
+  background-color: #272727;
+  color: white;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+#skills hr {
+  border-color: white;
+}
+#skills h3 {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+  color: #c5cae9;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#skills ul li {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+#skills ul li:hover {
+  color: #e3f2fd;
+}
+
+.icon {
+  width: 19.5%;
+  vertical-align: -webkit-baseline-middle;
+  padding: .6rem;
+  filter: brightness(0) invert(0.6); 
+}
+
+.icon:hover {
+    filter: brightness(1) invert(0); 
+  }
+
+@media (max-width: 1000px) {
+  .icon {
+    max-height: 7rem;
+    max-width: 7rem;
+  }
+}
