@@ -32,6 +32,8 @@ import ispf from '../../../../../images/icons/ispf.png';
 import oracle from '../../../../../images/icons/oracle.png';
 import zos from '../../../../../images/icons/zos.png';
 import mvs from '../../../../../images/icons/mvs.png';
+import machineLearning from '../../../../../images/icons/machine-learning.png';
+import neuralNetworks from '../../../../../images/icons/neural-networks.png';
 
 const SkillsSection = ({frontEnd, backEnd, other}) => {
   return (
@@ -72,9 +74,14 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
           
            <Grid item xs={12} sm={6}>
 
-           <img className='icon'
+           {/* <img className='icon'
                 src={vsam} 
                 alt={'VSAM'}
+                ></img> */}
+
+            <img className='icon'
+                src={neuralNetworks} 
+                alt={'Neural Networks'}
                 ></img>
 
             <img className='icon'
@@ -135,9 +142,14 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
           
            <Grid item xs={12} sm={6}>
 
-            <img className='icon'
+           {/* <img className='icon'
                 src={handlebars} 
                 alt={'Handlebars'}
+              ></img> */}
+
+              <img className='icon'
+                src={machineLearning} 
+                alt={'Machine Learning'}
               ></img>
 
               <img className='icon' 
