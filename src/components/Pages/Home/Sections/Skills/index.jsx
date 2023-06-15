@@ -34,6 +34,18 @@ import zos from '../../../../../images/icons/zos.png';
 import mvs from '../../../../../images/icons/mvs.png';
 import machineLearning from '../../../../../images/icons/machine-learning.png';
 import neuralNetworks from '../../../../../images/icons/neural-networks.png';
+import python from '../../../../../images/icons/python.png';
+import numpy from '../../../../../images/icons/numpy.png';
+import scipy from '../../../../../images/icons/scipy.png';
+import pandas from '../../../../../images/icons/pandas.png';
+import matplotlib from '../../../../../images/icons/matplotlib.png';
+import postgresql from '../../../../../images/icons/postgresql.png';
+import flask from '../../../../../images/icons/flask.png';
+import api from '../../../../../images/icons/api.png';
+import tableau from '../../../../../images/icons/tableau.png';
+import leaflet from '../../../../../images/icons/leaflet.png';
+import etl from '../../../../../images/icons/etl.png';
+
 
 const SkillsSection = ({frontEnd, backEnd, other}) => {
   return (
@@ -45,149 +57,78 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
            <Grid item xs={12} sm={6}>
 
-             <img className='icon'
-                src={cobol} 
-                alt={'COBOL'}
+           <img className='icon' 
+                src={python} 
+                alt={'Python'}
+              ></img>
+
+           <img className='icon' 
+                src={pandas} 
+                alt={'Pandas'}
                 ></img>
 
-                <img className='icon'
-                src={db2} 
-                alt={'DB2'}
-                ></img>
-
-                <img className='icon'
-                src={oracle} 
-                alt={'Oracle'}
-                ></img>
-
-                <img className='icon'
-                src={cics} 
-                alt={'CICS'}
-                ></img>
-
-                <img className='icon'
-                src={jcl} 
-                alt={'JCL'}
-                ></img>
-                
-           </Grid>
-          
-           <Grid item xs={12} sm={6}>
-
-           {/* <img className='icon'
-                src={vsam} 
-                alt={'VSAM'}
-                ></img> */}
+            <img className='icon'
+                src={tableau} 
+                alt={'tableau'}
+               ></img>
 
             <img className='icon'
                 src={neuralNetworks} 
                 alt={'Neural Networks'}
                 ></img>
 
-            <img className='icon'
-                src={tso} 
-                alt={'TSO'}
-                ></img>
-
-            <img className='icon' 
-                src={ispf} 
-                alt={'ISPF'}
-              ></img>
-
-            <img className='icon' 
-                src={mvs} 
-                alt={'MVS'}
-              ></img>
-
-            <img className='icon'
-                src={zos} 
-                alt={'z/os'}
-              ></img>
-
-          </Grid> 
-
-
-        </Grid>
-
-        <Grid container>
-
-           <Grid item xs={12} sm={6}>
-
-            <img className='icon'
-                src={react} 
-                alt={'React'}
-                ></img>
-
-            <img className='icon' 
-                src={javascript} 
-                alt={'JavaScript'}
-              ></img>
-
-            <img className='icon'
-                src={html} 
-                alt={'HTML'}
-               ></img>
-  
-            <img className='icon' 
-                src={jquery} 
-                alt={'jQuery'}
-              ></img>
-
-            <img className='icon' 
-                src={responsiveDesign} 
-                alt={'Responsive Design'}
-                ></img>
-
-          </Grid>
-          
-           <Grid item xs={12} sm={6}>
-
-           {/* <img className='icon'
-                src={handlebars} 
-                alt={'Handlebars'}
-              ></img> */}
-
-              <img className='icon'
+           <img className='icon'
                 src={machineLearning} 
                 alt={'Machine Learning'}
               ></img>
 
-              <img className='icon' 
-                src={mvc} 
-                alt={'MVC Architecture'}
+           </Grid>
+
+           <Grid item xs={12} sm={6}>
+
+           <img className='icon' 
+                src={etl} 
+                alt={'ETL'}
               ></img>
 
-              <img className='icon'
-                src={css} 
-                alt={'CSS'}
-               ></img>
+            <img className='icon'
+                src={numpy} 
+                alt={'NumPy'}
+                ></img>
 
             <img className='icon' 
-                src={restful_api} 
-                alt={'RESTful API Design'}
+                src={matplotlib} 
+                alt={'matplotlib'}
               ></img>
 
-              <img className='icon'
-                src={ajax} 
-                alt={'AJAX'}
-               ></img>
+            <img className='icon' 
+                src={scipy} 
+                alt={'SciPy'}
+              ></img>
+
+            <img className='icon' 
+                  src={leaflet} 
+                  alt={'Leaflet'}
+                ></img>
 
           </Grid> 
+
 
         </Grid>
 
         <Grid container>
 
-          <Grid item xs={12} sm={6}>
+           <Grid item xs={12} sm={6}>
 
-          <img className='icon'
+
+           <img className='icon'
                 src={sql} 
                 alt={'SQL'}
               ></img>
 
             <img className='icon' 
-                src={firebase} 
-                alt={'Firebase'}
+                src={postgresql} 
+                alt={'postgresql'}
               ></img>
 
             <img className='icon'
@@ -195,50 +136,46 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'MongoDB'}
               ></img>
 
-
-
             <img className='icon' 
                 src={mysql} 
                 alt={'MySQL'}
               ></img>
 
-            <img className='icon' 
-              src={sequelize} 
-              alt={'Sequelize'}
-            ></img>
-
-          </Grid>
-            
-          <Grid item xs={12} sm={6}>
-
-
-            <img className='icon' 
-                src={bootstrap} 
-                alt={'Bootstrap'}
-              ></img>
-
-            <img className='icon' 
-                    src={node} 
-                    alt={'Node'}
-                  ></img>
-
-            <img className='icon' 
-                  src={express} 
-                  alt={'Express'}
+            <img className='icon'
+                src={oracle} 
+                alt={'Oracle'}
                 ></img>
 
+          </Grid>
+
+          <Grid item xs={12} sm={6}>
+                <img className='icon'
+                src={db2} 
+                alt={'DB2'}
+                ></img>
+
+            <img className='icon'
+                src={cobol} 
+                alt={'COBOL'}
+                ></img>
+
+            <img className='icon'
+                src={html} 
+                alt={'HTML'}
+               ></img>
 
             <img className='icon' 
-                src={heroku} 
-                alt={'Heroku'}
+                src={javascript} 
+                alt={'JavaScript'}
               ></img>
 
             <img className='icon' 
-                src={git} 
-                alt={'Git'}
+                src={api} 
+                alt={'API'}
               ></img>
 
           </Grid>
+          
 
         </Grid>
 
