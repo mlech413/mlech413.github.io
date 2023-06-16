@@ -21,7 +21,7 @@ class ResumeSection extends Component {
   render() {
     return (
       <section id="resume">
-        <div id="hide-if-mobile">
+         <div id="hide-if-mobile"> {/* hide resume section on small screens, doesn't work properly on mobile */}
         <Container>
           <Grid container spacing={16}>
             <Grid item xs={12}>

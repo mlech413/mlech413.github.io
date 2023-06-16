@@ -14,7 +14,7 @@ const ContactSection = ({email, github, linkedIn, linkedInDisp, phone, phoneDisp
           <Grid item xs={2} sm={5} md={4} lg={4} xl={3}>
             <div className="google-maps">
               <div className="map-header">
-                My neck of the woods:
+                My local area:
               </div>
               <br/>
               <iframe

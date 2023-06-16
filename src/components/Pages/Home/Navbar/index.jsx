@@ -75,8 +75,7 @@ class Navbar extends Component {
                     </a>
                   </li>
 
-                  {/* <div id="hide-if-mobile"> */}
-                    <li id="hide-if-mobile">
+                    <li id="hide-if-mobile"> {/* hide resume section on small screens, doesn't work properly on mobile */}
                       <a 
                         href="#resume"
                         className={activeSection === 4 ? 'active' : ''} 
@@ -85,7 +84,6 @@ class Navbar extends Component {
                         Resume
                       </a>
                     </li>
-                  {/* </div> */}
 
                   <li>
                     <a 
@@ -136,8 +134,7 @@ class Navbar extends Component {
                 </a>
               </li>
 
-              {/* <div id="hide-if-mobile"> */}
-              <li id="hide-if-mobile">
+              <li id="hide-if-mobile">  {/* hide resume section on small screens, doesn't work properly on mobile */}
                 <a 
                   href="#resume" 
                   className={activeSection === 4 ? 'active' : ''} 
@@ -146,7 +143,6 @@ class Navbar extends Component {
                   Resume
                 </a>
               </li>
-              {/* </div> */}
               
               <li>
                 <a 

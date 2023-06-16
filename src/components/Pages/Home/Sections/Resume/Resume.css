@@ -39,19 +39,8 @@
   box-shadow: 0 4px 3px #0d47a1;
 }
 
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  #resume {
-    height: 0;
-    display: none;
-  }
-} */
-
-
-/* @media screen and (min-width: 801px) and (max-width: 1024px) {
-  #hide-if-mobile { display: block; }
-} */
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
-  #hide-if-mobile { display: none; }  /* hide the resume section for small screens */
+  #hide-if-mobile { display: none; }  /* hide resume section on small screens, doesn't work properly on mobile */
 }
 

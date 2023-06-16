@@ -122,9 +122,7 @@
   }
 }
 
-/* @media screen and (min-width: 801px) and (max-width: 1024px) {
-  #hide-if-mobile { display: block; }
-} */
+
 @media screen and (min-width: 0px) and (max-width: 800px) {
-  #hide-if-mobile { display: none; }  /* hide the resume section for small screens */
+  #hide-if-mobile { display: none; }  /* hide resume section on small screens, doesn't work properly on mobile */
 }
