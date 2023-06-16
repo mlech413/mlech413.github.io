@@ -21,6 +21,7 @@ class ResumeSection extends Component {
   render() {
     return (
       <section id="resume">
+        <div id="hide-if-mobile">
         <Container>
           <Grid container spacing={16}>
             <Grid item xs={12}>
@@ -50,6 +51,7 @@ class ResumeSection extends Component {
             </object>
           </div>
         </Modal>
+        </div>
       </section>
     );
   }

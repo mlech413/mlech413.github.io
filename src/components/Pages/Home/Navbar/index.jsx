@@ -74,15 +74,19 @@ class Navbar extends Component {
                       About
                     </a>
                   </li>
-                  <li>
-                    <a 
-                      href="#resume"
-                      className={activeSection === 4 ? 'active' : ''} 
-                      onClick={(e) => this.goToSection(e, 4)}
-                    >
-                      Resume
-                    </a>
-                  </li>
+
+                  {/* <div id="hide-if-mobile"> */}
+                    <li id="hide-if-mobile">
+                      <a 
+                        href="#resume"
+                        className={activeSection === 4 ? 'active' : ''} 
+                        onClick={(e) => this.goToSection(e, 4)}
+                      >
+                        Resume
+                      </a>
+                    </li>
+                  {/* </div> */}
+
                   <li>
                     <a 
                       href="#contact"
@@ -131,7 +135,9 @@ class Navbar extends Component {
                   About
                 </a>
               </li>
-              <li>
+
+              {/* <div id="hide-if-mobile"> */}
+              <li id="hide-if-mobile">
                 <a 
                   href="#resume" 
                   className={activeSection === 4 ? 'active' : ''} 
@@ -140,6 +146,8 @@ class Navbar extends Component {
                   Resume
                 </a>
               </li>
+              {/* </div> */}
+              
               <li>
                 <a 
                   href="#contact" 
