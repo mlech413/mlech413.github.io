@@ -45,6 +45,7 @@ import api from '../../../../../images/icons/api.png';
 import tableau from '../../../../../images/icons/tableau.png';
 import leaflet from '../../../../../images/icons/leaflet.png';
 import etl from '../../../../../images/icons/etl.png';
+import scikitLearn from '../../../../../images/icons/scikit-learn.png';
 
 
 const SkillsSection = ({frontEnd, backEnd, other}) => {
@@ -86,25 +87,26 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
            <Grid item xs={12} sm={6}>
 
-           <img className='icon' 
-                src={etl} 
-                alt={'ETL'}
-              ></img>
-
             <img className='icon'
                 src={numpy} 
                 alt={'NumPy'}
                 ></img>
 
             <img className='icon' 
+                src={scipy} 
+                alt={'SciPy'}
+              ></img>
+           
+           <img className='icon' 
+                src={scikitLearn} 
+                alt={'Scikit-Learn'}
+              ></img>
+
+            <img className='icon' 
                 src={matplotlib} 
                 alt={'matplotlib'}
               ></img>
 
-            <img className='icon' 
-                src={scipy} 
-                alt={'SciPy'}
-              ></img>
 
             <img className='icon' 
                   src={leaflet} 
@@ -131,11 +133,6 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'postgresql'}
               ></img>
 
-            <img className='icon'
-                src={mongodb} 
-                alt={'MongoDB'}
-              ></img>
-
             <img className='icon' 
                 src={mysql} 
                 alt={'MySQL'}
@@ -145,6 +142,11 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 src={oracle} 
                 alt={'Oracle'}
                 ></img>
+
+            <img className='icon'
+                src={mongodb} 
+                alt={'MongoDB'}
+              ></img>
 
           </Grid>
 

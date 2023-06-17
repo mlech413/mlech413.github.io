@@ -214,6 +214,7 @@ class Home extends Component {
           phone={AboutMe.phone}
           phoneDisp={AboutMe.phoneDisp}
           github={AboutMe.github}
+          githubDisp={AboutMe.githubDisp}
           linkedIn={AboutMe.linkedIn}
           linkedInDisp={AboutMe.linkedInDisp}
           smallMap={AboutMe.smallMap}
