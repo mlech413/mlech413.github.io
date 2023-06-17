@@ -138,15 +138,15 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'MySQL'}
               ></img>
 
+<           img className='icon'
+                src={mongodb} 
+                alt={'MongoDB'}
+              ></img>
+
             <img className='icon'
                 src={oracle} 
                 alt={'Oracle'}
                 ></img>
-
-            <img className='icon'
-                src={mongodb} 
-                alt={'MongoDB'}
-              ></img>
 
           </Grid>
 

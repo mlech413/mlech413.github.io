@@ -9,7 +9,7 @@ const AboutHeaderSection = ({summary}) => {
       <Container>
         <Grid>
           <div id="about-location">
-            <h2><i>A B O U T</i></h2>
+            {/* <h2><i>A B O U T</i></h2> */}
           </div>
         </Grid>
       </Container>

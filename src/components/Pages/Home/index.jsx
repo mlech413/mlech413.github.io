@@ -181,6 +181,13 @@ class Home extends Component {
           linkedIn={AboutMe.linkedIn}
           goToSection={this.goToSection} 
         />
+
+        <SkillsSection 
+          frontEnd={skills.frontEnd}
+          backEnd={skills.backEnd}
+          other={skills.other}
+        />
+
         <PortfolioSection 
           projects={projects}
           numProj={this.state.numProj}
@@ -189,11 +196,7 @@ class Home extends Component {
           projItemLongestDesc={this.state.projItemLongestDesc}
           projItemInfoHeight={this.state.projItemInfoHeight}
         />
-        <SkillsSection 
-          frontEnd={skills.frontEnd}
-          backEnd={skills.backEnd}
-          other={skills.other}
-        />
+
         <AboutHeaderSection 
         />
         <AboutSection 
