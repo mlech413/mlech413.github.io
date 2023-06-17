@@ -36,6 +36,7 @@ class Navbar extends Component {
                 onClose={this.toggleDrawer}
               >
                 <ul className="nav-section-sidebar">
+
                   <li className="sidebar-brand-logo">
                     <a 
                         href="#splash"
@@ -46,25 +47,27 @@ class Navbar extends Component {
                     </a>
                   </li>
                   <hr />
-                  <li>
-                    <a 
-                      href="#portfolio"
-                      className={activeSection === 1 ? 'active' : ''} 
-                      onClick={(e) => this.goToSection(e, 1)}
-                    >
-                      Portfolio
-                    </a>
-                  </li>
-                  <li>
 
+                  <li>
                     <a 
                       href="#skills"
                       className={activeSection === 2 ? 'active' : ''} 
-                      onClick={(e) => this.goToSection(e, 2)}
+                      onClick={(e) => this.goToSection(e, 1)}
                     >
                       Skills
                     </a>
                   </li>
+
+                  <li>
+                    <a 
+                      href="#portfolio"
+                      className={activeSection === 1 ? 'active' : ''} 
+                      onClick={(e) => this.goToSection(e, 2)}
+                    >
+                      Portfolio
+                    </a>
+                  </li>
+
                   <li>
                     <a 
                       href="#about"
@@ -106,24 +109,27 @@ class Navbar extends Component {
             </a> 
             <div className="nav-icon-container"></div>
             <ul className="nav-section">
-              <li>
-                <a 
-                  href="#portfolio"
-                  className={activeSection === 1 ? 'active' : ''} 
-                  onClick={(e) => this.goToSection(e, 1)}
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li>
+
+            <li>
                 <a 
                   href="#skills"
                   className={activeSection === 2 ? 'active' : ''}  
-                  onClick={(e) => this.goToSection(e, 2)}
+                  onClick={(e) => this.goToSection(e, 1)}
                 >
                   Skills
                 </a>
               </li>
+
+              <li>
+                <a 
+                  href="#portfolio"
+                  className={activeSection === 1 ? 'active' : ''} 
+                  onClick={(e) => this.goToSection(e, 2)}
+                >
+                  Portfolio
+                </a>
+              </li>
+
               <li>
                 <a 
                   href="#about" 
@@ -153,6 +159,7 @@ class Navbar extends Component {
                   Contact
                 </a>
               </li>
+
             </ul>
           </div>
         </Container>

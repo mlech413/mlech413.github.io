@@ -126,10 +126,6 @@ class Navbar extends Component {
                 </a>
               </li>
 
-
-
-
-
               <li>
                 <a 
                   href="#contact" 

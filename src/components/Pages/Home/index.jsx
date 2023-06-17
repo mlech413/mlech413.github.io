@@ -39,8 +39,8 @@ class Home extends Component {
   goToSection = (section) => {
     const topArray = [
       0, 
-      this.state.portfolioTop,
       this.state.skillsTop,
+      this.state.portfolioTop,
       this.state.aboutTop,
       this.state.resumeTop,
       this.state.contactTop
@@ -104,7 +104,9 @@ class Home extends Component {
     this.setState({
       portfolioTop: document.getElementById('portfolio').offsetTop - 56,
       skillsTop: document.getElementById('skills').offsetTop - 56,
-      aboutTop: document.getElementById('about').offsetTop - 456,
+      // remove word 'about' in the about header section, so just go to the regular about section
+      // aboutTop: document.getElementById('about').offsetTop - 456,
+      aboutTop: document.getElementById('about').offsetTop - 56,
       resumeTop: document.getElementById('resume').offsetTop - 56,
       contactTop: document.getElementById('contact').offsetTop - 406
     });
