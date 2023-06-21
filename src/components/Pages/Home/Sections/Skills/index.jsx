@@ -58,6 +58,9 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                             
       <Container>
 
+
+
+
         <Grid container>
 
            <Grid item xs={12} sm={6}>
@@ -121,68 +124,8 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
         </Grid>
 
-        <Grid container>
-
-           <Grid item xs={12} sm={6}>
 
 
-           <img className='icon'
-                src={sql} 
-                alt={'SQL'}
-              ></img>
-
-            <img className='icon' 
-                src={postgresql} 
-                alt={'PostgreSQL'}
-              ></img>
-
-            <img className='icon' 
-                src={mysql} 
-                alt={'MySQL'}
-              ></img>
-
-<           img className='icon'
-                src={mongodb} 
-                alt={'MongoDB'}
-              ></img>
-
-            <img className='icon'
-                src={oracle} 
-                alt={'Oracle'}
-                ></img>
-
-          </Grid>
-
-          <Grid item xs={12} sm={6}>
-                <img className='icon'
-                src={db2} 
-                alt={'DB2'}
-                ></img>
-
-            <img className='icon'
-                src={cobol} 
-                alt={'COBOL'}
-                ></img>
-
-            <img className='icon'
-                src={jcl} 
-                alt={'JCL'}
-                ></img>
-
-            <img className='icon' 
-                src={heroku} 
-                alt={'Heroku'}
-              ></img>
-
-            <img className='icon' 
-                src={git} 
-                alt={'Git'}
-              ></img>
-
-          </Grid>
-          
-
-        </Grid>
 
         <Grid container>
 
@@ -244,8 +187,75 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
           </Grid>
           
+        </Grid>
+
+
+
+
+        <Grid container>
+
+           <Grid item xs={12} sm={6}>
+
+
+           <img className='icon'
+                src={sql} 
+                alt={'SQL'}
+              ></img>
+
+            <img className='icon' 
+                src={postgresql} 
+                alt={'PostgreSQL'}
+              ></img>
+
+            <img className='icon' 
+                src={mysql} 
+                alt={'MySQL'}
+              ></img>
+
+<           img className='icon'
+                src={mongodb} 
+                alt={'MongoDB'}
+              ></img>
+
+            <img className='icon'
+                src={oracle} 
+                alt={'Oracle'}
+                ></img>
+
+          </Grid>
+
+          <Grid item xs={12} sm={6}>
+                <img className='icon'
+                src={db2} 
+                alt={'DB2'}
+                ></img>
+
+            <img className='icon'
+                src={cobol} 
+                alt={'COBOL'}
+                ></img>
+
+            <img className='icon'
+                src={jcl} 
+                alt={'JCL'}
+                ></img>
+
+            <img className='icon' 
+                src={heroku} 
+                alt={'Heroku'}
+              ></img>
+
+            <img className='icon' 
+                src={git} 
+                alt={'Git'}
+              ></img>
+
+          </Grid>          
 
         </Grid>
+
+
+
 
       </Container>
       
