@@ -46,6 +46,10 @@ import tableau from '../../../../../images/icons/tableau.png';
 import leaflet from '../../../../../images/icons/leaflet.png';
 import etl from '../../../../../images/icons/etl.png';
 import scikitLearn from '../../../../../images/icons/scikit-learn.png';
+import tensorflow from '../../../../../images/icons/tensorflow.png';
+import pytorch from '../../../../../images/icons/pytorch.png';
+import r from '../../../../../images/icons/r.png';
+import deepLearning from '../../../../../images/icons/deep-learning.png';
 
 
 const SkillsSection = ({frontEnd, backEnd, other}) => {
@@ -68,17 +72,17 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'Pandas'}
                 ></img>
 
+           <img className='icon'
+                src={r} 
+                alt={'R'}
+              ></img>
+
             <img className='icon'
                 src={tableau} 
-                alt={'tableau'}
+                alt={'Tableau'}
                ></img>
 
             <img className='icon'
-                src={neuralNetworks} 
-                alt={'Neural Networks'}
-                ></img>
-
-           <img className='icon'
                 src={machineLearning} 
                 alt={'Machine Learning'}
               ></img>
@@ -87,31 +91,30 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
            <Grid item xs={12} sm={6}>
 
+           <img className='icon'
+                src={neuralNetworks} 
+                alt={'Neural Networks'}
+                ></img>
+
+           <img className='icon'
+                src={deepLearning} 
+                alt={'Deep Learning'}
+               ></img>
+
+          <img className='icon' 
+                src={tensorflow} 
+                alt={'TensorFlow'}
+              ></img>
+
+            <img className='icon' 
+                src={pytorch} 
+                alt={'PyTorch'}
+              ></img>
+
             <img className='icon'
-                src={numpy} 
-                alt={'NumPy'}
-                ></img>
-
-            <img className='icon' 
-                src={scipy} 
-                alt={'SciPy'}
+                src={etl} 
+                alt={'ETL'}
               ></img>
-           
-           <img className='icon' 
-                src={scikitLearn} 
-                alt={'Scikit-Learn'}
-              ></img>
-
-            <img className='icon' 
-                src={matplotlib} 
-                alt={'matplotlib'}
-              ></img>
-
-
-            <img className='icon' 
-                  src={leaflet} 
-                  alt={'Leaflet'}
-                ></img>
 
           </Grid> 
 
@@ -130,7 +133,7 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
             <img className='icon' 
                 src={postgresql} 
-                alt={'postgresql'}
+                alt={'PostgreSQL'}
               ></img>
 
             <img className='icon' 
@@ -162,18 +165,81 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 ></img>
 
             <img className='icon'
-                src={html} 
-                alt={'HTML'}
-               ></img>
+                src={jcl} 
+                alt={'JCL'}
+                ></img>
 
             <img className='icon' 
-                src={javascript} 
-                alt={'JavaScript'}
+                src={heroku} 
+                alt={'Heroku'}
               ></img>
+
+            <img className='icon' 
+                src={git} 
+                alt={'Git'}
+              ></img>
+
+          </Grid>
+          
+
+        </Grid>
+
+        <Grid container>
+
+           <Grid item xs={12} sm={6}>
+
+           <img className='icon'
+                src={numpy} 
+                alt={'NumPy'}
+                ></img>
+
+            <img className='icon' 
+                src={scipy} 
+                alt={'SciPy'}
+              ></img>
+           
+           <img className='icon' 
+                src={scikitLearn} 
+                alt={'Scikit Learn'}
+              ></img>
+
+            <img className='icon' 
+                src={matplotlib} 
+                alt={'Matplotlib'}
+              ></img>
+
+            <img className='icon' 
+                  src={leaflet} 
+                  alt={'Leaflet'}
+                ></img>
+            
+          </Grid>
+
+          <Grid item xs={12} sm={6}>
+
+            <img className='icon'
+                src={flask} 
+                alt={'Flask'}
+                ></img>
 
             <img className='icon' 
                 src={api} 
                 alt={'API'}
+              ></img>
+
+            <img className='icon'
+                src={html} 
+                alt={'HTML'}
+               ></img>
+
+            <img className='icon'
+                src={css} 
+                alt={'CSS'}
+                ></img>
+
+            <img className='icon' 
+                src={javascript} 
+                alt={'JavaScript'}
               ></img>
 
           </Grid>
