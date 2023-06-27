@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.17fb5467.css",
   "main.css.map": "static/css/main.17fb5467.css.map",
-  "main.js": "static/js/main.651f59de.js",
-  "main.js.map": "static/js/main.651f59de.js.map",
+  "main.js": "static/js/main.3b3eee4a.js",
+  "main.js.map": "static/js/main.3b3eee4a.js.map",
   "static\\media\\AmeriGuide.jpg": "static/media/AmeriGuide.485f00f1.jpg",
   "static\\media\\NFLevate.jpg": "static/media/NFLevate.173617fd.jpg",
   "static\\media\\ajax.png": "static/media/ajax.1f32cda1.png",
@@ -57,6 +57,7 @@
   "static\\media\\sequelize.png": "static/media/sequelize.8ec1405a.png",
   "static\\media\\splash.jpg": "static/media/splash.c4772f31.jpg",
   "static\\media\\sql.png": "static/media/sql.a8b695ca.png",
+  "static\\media\\stock-forecaster.jpg": "static/media/stock-forecaster.9bd0bfdf.jpg",
   "static\\media\\tableau.png": "static/media/tableau.61b57ae2.png",
   "static\\media\\tensorflow.png": "static/media/tensorflow.d8b92ba1.png",
   "static\\media\\train-scheduler.jpg": "static/media/train-scheduler.d5c08a8f.jpg",
