@@ -59,8 +59,6 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
       <Container>
 
 
-
-
         <Grid container>
 
            <Grid item xs={12} sm={6}>
@@ -75,11 +73,6 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'Pandas'}
                 ></img>
 
-           <img className='icon'
-                src={r} 
-                alt={'R'}
-              ></img>
-
             <img className='icon'
                 src={tableau} 
                 alt={'Tableau'}
@@ -90,14 +83,14 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'Machine Learning'}
               ></img>
 
-           </Grid>
-
-           <Grid item xs={12} sm={6}>
-
-           <img className='icon'
+            <img className='icon'
                 src={neuralNetworks} 
                 alt={'Neural Networks'}
                 ></img>
+
+           </Grid>
+
+           <Grid item xs={12} sm={6}>
 
            <img className='icon'
                 src={deepLearning} 
@@ -109,15 +102,21 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 alt={'TensorFlow'}
               ></img>
 
-            <img className='icon' 
-                src={pytorch} 
-                alt={'PyTorch'}
-              ></img>
-
             <img className='icon'
                 src={etl} 
                 alt={'ETL'}
               ></img>
+
+            <img className='icon' 
+                src={heroku} 
+                alt={'Heroku'}
+              ></img>
+
+            <img className='icon' 
+                src={git} 
+                alt={'Git'}
+              ></img>
+
 
           </Grid> 
 
@@ -241,13 +240,13 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
                 ></img>
 
             <img className='icon' 
-                src={heroku} 
-                alt={'Heroku'}
+                src={cics} 
+                alt={'CICS'}
               ></img>
 
             <img className='icon' 
-                src={git} 
-                alt={'Git'}
+                src={ispf} 
+                alt={'ISPF'}
               ></img>
 
           </Grid>          
