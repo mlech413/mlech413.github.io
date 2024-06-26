@@ -19,7 +19,7 @@ class SplashSection extends Component {
           <div className="w3-display-container">
             <div className="w3-display-middle title">
               <span className="w3-center">
-                {/* <div className="splash-img-container">
+                <div className="splash-img-container">
                   <img 
                   src={avatar} 
                   alt={name} 
@@ -27,9 +27,9 @@ class SplashSection extends Component {
                   ></img>
                 </div>
                 <h1>{name}</h1>
-                <hr /> */}
+                <hr />
                 <h2>{headline}</h2>
-                {/* <ul>
+                <ul>
                   <li>
                     <a 
                       href="#portfolio" 
@@ -44,7 +44,7 @@ class SplashSection extends Component {
                   <li>
                     <a href={linkedIn} target="_blank"><i className="fab fa-linkedin"></i></a>
                   </li>
-                </ul>  */}
+                </ul> 
               </span>
             </div>
           </div>

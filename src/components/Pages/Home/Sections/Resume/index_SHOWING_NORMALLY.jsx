@@ -25,7 +25,7 @@ class ResumeSection extends Component {
         
         {/* *****hide resume section on small screens, doesn't work properly on mobile */}
         
-        {/* <Container>
+        <Container>
           <Grid container spacing={16}>
             <Grid item xs={12}>
               <h2><i>R E S U M E</i></h2>
@@ -38,8 +38,8 @@ class ResumeSection extends Component {
               </div> 
             </Grid>
           </Grid>
-        </Container> */}
-
+        </Container>
+        
         <Modal
           id="resume-doc-modal"
           aria-labelledby="resume-document"

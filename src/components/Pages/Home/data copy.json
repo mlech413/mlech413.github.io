@@ -1,11 +1,10 @@
   {
   "about": {
 
-    "name": "Mark Lech",
+    "nameACTUAL": "Mark Lech",
+    "name": "Under Construction",
 
-    "headlineNORMAL": "Transitioning into Data Science with a diverse background that includes mainframe programming, business development, and outstanding communication skills.",
-    "headline": "Under Construction...",
-
+    "headline": "Transitioning into Data Science with a diverse background that includes mainframe programming, business development, and outstanding communication skills.",
     "summary1": ["Highly motivated, creative and versatile developer with a recent pivot into Data Science."],
     "summary2": ["10 years of Mainframe development experience in complex environments with additional exposure to web technologies."],
     "summary3": ["Experienced in all phases of the full software development life cycle with both small and large-scale projects."],

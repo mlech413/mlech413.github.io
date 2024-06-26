@@ -1,7 +1,8 @@
 #resume {
   background-color: #272727;
   color: lightgray;
-  padding: 15px;
+  /* comment out padding line if not displaying resume, to hide black band from section */
+  /* padding: 15px; */
   height: 100%;
   background-position: center;
   background-size: cover;

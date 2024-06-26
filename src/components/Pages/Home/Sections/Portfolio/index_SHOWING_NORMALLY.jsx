@@ -12,12 +12,12 @@ class PortfolioSection extends Component {
 
     return (
       <section id="portfolio">
-        
+
         <Container>
           <Grid container spacing={16}>
             <Grid item xs={12}>
               <div id="title-color">
-                <h2><i>UNDER CONSTRUCTION</i></h2>
+                <h2><i>P O R T F O L I O</i></h2>
               </div>
               <br/>
               <div className="content">
@@ -53,7 +53,7 @@ class PortfolioSection extends Component {
             </Grid>
           </Grid>
         </Container>
-
+        
       </section>
     );
   }

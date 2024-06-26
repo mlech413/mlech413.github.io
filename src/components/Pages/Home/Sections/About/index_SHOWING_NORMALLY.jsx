@@ -7,7 +7,7 @@ import phone_face from '../../../../../images/phone_face.jpg';
 const AboutSection = ({name, summary1, summary2, summary3, summary4, summary5}) => {
   return (
     <section id="about">
-      {/* <Container>
+      <Container>
         <Grid container spacing={16}>
           <Grid item xs={12} sm={12}>
             <h2 id="about-name-location"><i>{name}</i></h2>
@@ -42,7 +42,7 @@ const AboutSection = ({name, summary1, summary2, summary3, summary4, summary5}) 
             </div>
           </Grid>
         </Grid>
-      </Container> */}
+      </Container>
     </section>
   );
 }

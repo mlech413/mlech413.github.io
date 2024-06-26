@@ -56,7 +56,7 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
   return (
     <section id="skills">
                             
-      {/* <Container>
+      <Container>
 
 
         <Grid container>
@@ -256,7 +256,7 @@ const SkillsSection = ({frontEnd, backEnd, other}) => {
 
 
 
-      </Container> */}
+      </Container>
       
     </section>
   );

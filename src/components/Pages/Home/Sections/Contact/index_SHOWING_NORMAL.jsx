@@ -6,8 +6,7 @@ import Grid from '@material-ui/core/Grid';
 const ContactSection = ({email, github, githubDisp, linkedIn, linkedInDisp, phone, phoneDisp, smallMap, largeMap}) => {
   return (
     <section id="contact">
-
-      {/* <Container>
+      <Container>
         <Grid container>
           <Grid item xs={2} sm={1} md={2} lg={2} xl={3}>
             <div></div>
@@ -43,7 +42,7 @@ const ContactSection = ({email, github, githubDisp, linkedIn, linkedInDisp, phon
             </div>
           </Grid>  
         </Grid>
-      </Container> */}
+      </Container>
 
     </section>
   );

@@ -6,14 +6,13 @@ import Grid from '@material-ui/core/Grid';
 const ContactHeaderSection = ({summary}) => {
   return (
     <section id="contact-header">
-      
-      {/* <Container>
+      <Container>
         <Grid>
           <div id="contact-location">
             <h2><i>C O N T A C T</i></h2>
           </div>
         </Grid>
-      </Container> */}
+      </Container>
 
     </section>
   );

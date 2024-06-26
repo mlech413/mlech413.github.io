@@ -2,7 +2,7 @@
   background-color: #ce8633;
   background-image: linear-gradient(to right, #e6c569, #ce8633);
   /* comment out height if removing section to hide large row of color */
-  /* height: 400px; */
+  height: 400px;
   padding-top: 1.5em;
 }
 

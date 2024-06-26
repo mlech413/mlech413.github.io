@@ -25,11 +25,11 @@ class SplashSection extends Component {
                   alt={name} 
                   onClick={(e) => this.goToSection(e, 3)}
                   ></img>
-                </div>
+                </div> */}
                 <h1>{name}</h1>
-                <hr /> */}
+                {/* <hr />
                 <h2>{headline}</h2>
-                {/* <ul>
+                <ul>
                   <li>
                     <a 
                       href="#portfolio" 
